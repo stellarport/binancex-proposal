@@ -4,11 +4,10 @@ BinanceX BNB &lt;-> XLM bridge proposal
 ## Current State
 Stellarport currently operates a stablecoin service on the Stellar network. The stablecoin service can tokenize an arbitrary asset on the Stellar network. It does this by operating a central a3s hub that communicates with a set of asset specific relay servers. 
 
-See the architecture docs:
-API docs:
-relay server skeleton:
-open source sdk:
-
+- [architecture docs](https://github.com/stellarport/binancex-proposal/blob/master/A3S_Relay_Infrastructure_Overview.pdf)
+- [API docs](a3s.stellarport.io)
+- [relay server skeleton](https://github.com/stellarport/relay-server-skeleton)
+- [open source sdk](https://github.com/stellarport/a3s)
 
 ## Proposal
 Our proposal is to enable assets to transfer of BNB into and out of the Stellar DEX as well as the transfer of XLM into and out of the Binance DEX. This will be accomplished in two stages:
