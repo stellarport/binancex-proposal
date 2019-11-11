@@ -10,7 +10,7 @@ Stellarport currently operates a stablecoin service on the Stellar network. The 
 - [open source sdk](https://github.com/stellarport/a3s)
 
 ## Proposal
-Our proposal is to enable assets to transfer of BNB into and out of the Stellar DEX as well as the transfer of XLM into and out of the Binance DEX. This will be accomplished in two stages:
+Our proposal is to enable the transfer of BNB into and out of the Stellar DEX as well as the transfer of XLM into and out of the Binance DEX. This will be accomplished in two stages:
 
 ## Stage 1 (ETA 2 months)
 We will enable BNB deposits into and out of the Stellar DEX. BNB will be able to be transferred into and out of the Stellar DEX using the open source sdk. This will entail running reliable Binance Chain infrastructure to enable reliable deposits and withdrawals as well as adding a BNB relay server and adding BNB to our open source SDK and API docs.
