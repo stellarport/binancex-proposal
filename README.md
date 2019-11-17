@@ -12,8 +12,13 @@ Stellarport currently operates a stablecoin service on the Stellar network. The 
 ## Proposal
 Our proposal is to enable the transfer of BNB into and out of the Stellar DEX as well as the transfer of XLM into and out of the Binance DEX. This will be accomplished in two stages:
 
-## Stage 1 (ETA 2 months)
+## Stage 1 (ETA 3 months)
 We will enable BNB deposits into and out of the Stellar DEX. BNB will be able to be transferred into and out of the Stellar DEX using the open source sdk. This will entail running reliable Binance Chain infrastructure to enable reliable deposits and withdrawals as well as adding a BNB relay server and adding BNB to our open source SDK and API docs.
 
 ## Stage 2 (ETA 6 months)
-We will enable XLM deposits into and out of the Binance DEX. XLM will be able to be transferred into and out of the Binance DEX using the open source sdk. This will entail expanding our A3S hub to operate on multiple networks and adding Binance DEX as a valid network for the A3S hub. Then, XLM will be added as an asset relay server for the Binance DEX as well as to our open source SDK and API docs.
+We will enable XLM deposits into and out of the Binance DEX. XLM will be able to be transferred into and out of the Binance DEX using the open source sdk. This will entail expanding our A3S hub to operate on multiple networks and adding Binance DEX as a valid network for the A3S hub. Then, XLM will be added as a relay server for the Binance DEX as well as to our open source SDK and API docs.
+
+## Stage 3 (ETA 12 months)
+We will enable a full two way bridge between Stellar and Binance chain. This means that we will be able to list any Stellar asset on Binance chain and any Binance Chain asset on Stellar. Users will be able to transfer assets freely between the two networks.
+
+Additionally, asset issuers will be able to list tokens on Stellar and/or Binance chain using our open source relay server skeleton.
